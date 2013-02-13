@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
@@ -105,17 +105,17 @@
 			<Add library="Comdlg32" />
 		</Linker>
 		<ExtraCommands>
-			<Add after="xcopy /e /i /y &quot;$(PROJECT_DIR)..\..\..\export\win_cb\*.dll&quot;  &quot;$(PROJECT_DIR)bin&quot;" />
-			<Add after="cmd /c if not exist &quot;$(PROJECT_DIR)bin/data&quot; mkdir &quot;$(PROJECT_DIR)bin/data&quot;" />
+			<Add after='xcopy /e /i /y &quot;$(PROJECT_DIR)..\..\..\export\win_cb\*.dll&quot;  &quot;$(PROJECT_DIR)bin&quot;' />
+			<Add after='cmd /c if not exist &quot;$(PROJECT_DIR)bin/data&quot; mkdir &quot;$(PROJECT_DIR)bin/data&quot;' />
 			<Mode after="always" />
 		</ExtraCommands>
+		<Unit filename="src\MouseVoronoi.cpp">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src\MouseVoronoi.h">
+			<Option virtualFolder="src" />
+		</Unit>
 		<Unit filename="src\main.cpp">
-			<Option virtualFolder="src" />
-		</Unit>
-		<Unit filename="src\testApp.cpp">
-			<Option virtualFolder="src" />
-		</Unit>
-		<Unit filename="src\testApp.h">
 			<Option virtualFolder="src" />
 		</Unit>
 		<Extensions>
